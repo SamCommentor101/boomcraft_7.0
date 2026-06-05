@@ -1,0 +1,18 @@
+# Ignore Python scripts
+*.py
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore local config
+config.json
+
+# Ignore generated JSON inside mods folder
+mods/file_list.json
+
+# Ignore any JSON except the one you want
+*.json
+!file_list.json
+
+.index/
